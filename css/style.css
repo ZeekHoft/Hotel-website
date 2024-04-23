@@ -1,0 +1,628 @@
+/* deleting the standard margin and padding */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Main styling */
+html,body
+{
+ font-family: 'Times New Roman', Times, serif;
+ line-height: 0.9cm;
+}
+
+a
+{
+    color: rgb(9, 9, 133);
+    text-decoration: none;
+}
+
+h1, h2, h3
+{
+    padding-bottom: 20px;
+}
+
+p
+{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME PAGE */
+
+
+
+
+
+/* utility classes they are open to any tags to use they do not belong in any specific
+tags or divs*/
+
+/* This gives space from the edges of the title and the list */
+
+
+
+.container
+{
+    margin: auto;
+    max-width: 1400px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary
+{
+    color: purple;
+}
+
+.text-primary2
+{
+    color: gold;
+}
+.lead
+{
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.btn
+{
+    display: inline-block;
+    font-size: 30px;
+    color: gold;
+    background: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.btn:hover
+{
+    color: white;
+    background-color: rgb(88, 30, 88) ;
+}
+
+.btn-light
+{
+    background: wheat;
+    color: purple;
+}
+
+
+
+
+
+/* text area in history */
+.bg-purple
+{
+    background: purple;
+    color: white;
+}
+
+.bg-light
+{
+    background: aliceblue;
+}
+.bg-dark
+{
+    background: lightgray;
+}
+
+
+.bg-primary
+{
+    background: purple;
+}
+
+.bg-primary2
+{
+    background: rgb(179, 70, 179);
+}
+
+
+/* on the footer area the float is being cleared
+so that the texts can have padding */
+.clr
+{
+    clear: both;
+}
+
+/* padding class */
+.py-1
+{
+    padding: 10px 0;
+}
+.py-2
+{
+    padding: 20px 0;
+}
+.py-3
+{
+    padding: 30px 0;
+}
+.py-4
+{
+    padding: 40px 0;
+}
+.py-5
+{
+    padding: 50px 0;
+}
+
+.large-heading
+{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+/* Navbar */
+#navbar
+{
+    background: rgb(116, 40, 116) ;
+    color: gold;
+    overflow: auto;
+    border: 4px gold solid;
+}
+
+#navbar a
+{
+    color: gold;
+}
+
+#navbar h1
+{
+      
+    float: left;
+    padding-top: 30px;
+    font-size: 60px;
+
+}
+
+
+
+#navbar h1 a:hover
+{
+    
+    color: white;
+    background-color: rgb(88, 30, 88) ;
+    
+}
+
+
+#navbar ul
+{
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+
+#navbar ul li
+{
+    float: left;
+
+}
+
+#navbar ul li a
+{
+    /* making the list into a block and adding padding all around them
+    so that there is seperation from all sides */
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current
+{
+    color: white;
+    background-color: rgb(88, 30, 88) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* center content of the website */
+#showcase
+{
+    background: url(/img/hotel\ 2.jpg)no-repeat center center/cover;
+    height: 1000px;
+}
+
+#showcase .showcase-content
+{
+    /* the main text the header  and the paragraphs design */
+    
+    color: gold;
+    text-align: center;
+    padding: 60px 100px;
+}
+
+/* targating the h1 header */
+/* this pushes the text under the header 1 */
+#showcase .showcase-content h1
+{
+    text-align: center;
+    font-size: 60px;
+    line-height: 30px;
+    padding-top: 160px;
+    padding-bottom: 180px;
+}
+
+#showcase .showcase-content p
+{
+    /* pusshing the link down */
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home info section */
+#home-info
+{
+    height: 450px;
+}
+
+
+
+#home-info .info-img
+{
+    float: right;
+    width: 50%;
+    background: url(/img/purple\ book.jpg) no-repeat center center/cover;
+    min-height: 100%;
+    border: 4px gold solid;
+    
+}
+
+#home-info .info-content
+{
+
+    float: left;
+    width: 50%;
+    height: 100%;
+    border: 4px gold solid;
+    text-align: center;
+    padding: 10px 5px;
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+
+#home-info .info-content p
+{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main attraction */
+
+
+#attraction h2
+{
+    text-align: center;
+    font-size: 60px;
+    padding: 80px 30px;
+    color: gold;
+    background: purple;
+    border: 4px gold solid;
+}
+
+
+
+/* featurs, icons and such */
+
+.box
+{
+    /* the border box is being added above
+    so the padding wont be added with the width */
+    float: left;
+    width: 100%;
+    padding: 100px 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box2
+{
+    /* This box 2 is affecting the boxes that are in contact html */
+    float: left;
+    width: 33%;
+    padding: 100px 40px;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+
+.box i
+{
+    margin-bottom: 10px;
+    
+}
+
+.bg-city
+{
+    background: url(/img/location3.jpg) no-repeat center center/cover;
+}
+
+.bg-breakfast
+{
+    background: url(/img/breakfast.jpg) no-repeat center center/cover;
+}
+
+.bg-gym
+{
+    background: url(/img/gym2.jpg) no-repeat center center/cover;
+}
+
+
+.bg-pool
+{
+    background: url(/img/pool.jpg) no-repeat center center/cover;
+}
+
+.feature-color
+{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT INFO */
+
+/* This part is making the image float to the right side of the webstie
+ and displaying it as a block so it can be moved*/
+#about-info .info-right
+{
+   float: right;
+   width: 50%;
+   min-height: 100%;
+}
+
+#about-info .info-right img
+{
+    
+    width: 90%;  
+    position: relative;
+    margin: auto;
+    border: 4px gold solid;
+    border-radius: 50% ;
+
+}
+
+
+
+
+/* This is making the text float to  the left side of the page */
+#about-info  .info-left 
+{
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+/* #about-info  .info-left p
+{
+    padding-right: 100px;
+} */
+
+
+/* testimonials */
+#testimonials
+{   
+    height: 100%;
+    background: url(/img/buildingbg2.jpg) no-repeat center center/cover;
+    border-top: 4px gold solid;
+    
+}
+#testimonials  h2
+{
+    color: gold;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+}
+
+/* This is the images of the workers */
+#testimonials .testimonial img
+{
+    position: relative;
+    top: 6px;
+    left: 6px;
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/* This is the text box area and this controls the width and height */
+#testimonials .testimonial
+{
+    opacity: 0.9;
+    height: 173px;
+    margin-bottom: 100px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+
+
+#testimonials .testimonial h3
+{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT INFO */
+#contact-form .form-group
+{
+    margin-bottom: 20px;
+}
+
+#contact-form label
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact-form p
+{
+    font-size: 25px;
+}
+
+#contact-form input, 
+#contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 2px gray solid;
+}
+
+
+#contact-form textarea
+{
+    height: 200px;
+
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus
+{
+    outline: none;
+    border-color: purple;
+}
+
+
+
+
+
+/* Footer */
+#main-footer
+{
+    text-align: center;
+    
+    background: purple;
+    color: white;
+    padding: 10px;
+
+}
